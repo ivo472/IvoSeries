@@ -1,0 +1,91 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* AndroidManifest.xml
+* ic_launcher-web.png
+* proguard-project.txt
+* res\
+* res\drawable-hdpi\
+* res\drawable-hdpi\drawer_shadow.9.png
+* res\drawable-hdpi\ic_drawer.png
+* res\drawable-hdpi\ic_launcher.png
+* res\drawable-mdpi\
+* res\drawable-mdpi\drawer_shadow.9.png
+* res\drawable-mdpi\ic_drawer.png
+* res\drawable-mdpi\ic_launcher.png
+* res\drawable-xhdpi\
+* res\drawable-xhdpi\drawer_shadow.9.png
+* res\drawable-xhdpi\ic_drawer.png
+* res\drawable-xhdpi\ic_launcher.png
+* res\drawable-xxhdpi\
+* res\drawable-xxhdpi\drawer_shadow.9.png
+* res\drawable-xxhdpi\ic_drawer.png
+* res\drawable-xxhdpi\ic_launcher.png
+* res\layout\
+* res\layout\activity_legenda_search.xml
+* res\layout\activity_list_serie.xml
+* res\layout\activity_main.xml
+* res\layout\fragment_list.xml
+* res\layout\fragment_navigation_drawer.xml
+* res\layout\fragment_search.xml
+* res\layout\line_info.xml
+* res\layout\line_info_botoes.xml
+* res\layout\line_info_detail.xml
+* res\menu\
+* res\menu\global.xml
+* res\menu\main.xml
+* res\values-v11\
+* res\values-v11\styles.xml
+* res\values-v14\
+* res\values-v14\styles.xml
+* res\values-w820dp\
+* res\values-w820dp\dimens.xml
+* res\values\
+* res\values\array.xml
+* res\values\dimens.xml
+* res\values\strings.xml
+* res\values\styles.xml
+* res\xml\
+* res\xml\config.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:28.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* libs\IvoSource.jar => app\libs\IvoSource.jar
+* libs\java-unrar.jar => app\libs\java-unrar.jar
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
